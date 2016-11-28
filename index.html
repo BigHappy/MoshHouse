@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MoshHouse</title>
+    <title>Mosh House</title>
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Rock+Salt|Yellowtail" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -33,6 +33,25 @@
             bgColor:"#2e2e51"
 
         });
+        $(function(){
+            $(".youtube").mouseover(function(){
+                $(this).toggleClass('animated');
+                $(this).toggleClass('infinite');
+                $(this).toggleClass('bounce');
+            });
+        });
+        $(".youtube").hover(
+            function () {
+                $(this).removeClass('animated');
+                $(this).removeClass('infinite');
+                $(this).removeClass('bounce');
+            },
+            function () {
+                $(this).addClass('animated');
+                $(this).addClass('infinite');
+                $(this).addClass('bounce');
+            }
+        );
     </script>
 </body>
 </html>
