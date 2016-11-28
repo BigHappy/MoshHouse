@@ -9,3 +9,9 @@
     src: url('../brandon/BrandonGrotesque-Regular.eot');
     src: url('../brandon/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'), url('../brandon/BrandonGrotesque-Regular.woff') format('woff'), url('../brandon/BrandonGrotesque-Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'five';
+    src: url('../brandon/.eot');
+    src: url('../brandon/.eot?#iefix') format('embedded-opentype'), url('../brandon/.woff') format('woff'), url('../brandon/FiveBoroughsHandwriting.ttf') format('truetype');
+}
