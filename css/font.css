@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'brabold';
+    src: url('../brandon/BrandonGrotesque-Bold.eot');
+    src: url('../brandon/BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'), url('../brandon/BrandonGrotesque-Bold.woff') format('woff'), url('../brandon/BrandonGrotesque-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'brareg';
+    src: url('../brandon/BrandonGrotesque-Regular.eot');
+    src: url('../brandon/BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'), url('../brandon/BrandonGrotesque-Regular.woff') format('woff'), url('../brandon/BrandonGrotesque-Regular.ttf') format('truetype');
+}
