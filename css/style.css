@@ -4,6 +4,7 @@ font-size: 62.5%;
 body{
     font-size: 1.2rem;
     height: 100%;
+
 }
 .pattern {
     width: 100%;
@@ -12,7 +13,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -2;
+    z-index: 2;
 }
 
 /* .main-visual {
@@ -33,7 +34,7 @@ video {
     position: fixed;
     right: 0;
     top: 0;
-    z-index:-3;
+    z-index:3;
 }
 
 
